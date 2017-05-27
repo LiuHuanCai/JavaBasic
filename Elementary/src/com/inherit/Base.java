@@ -15,6 +15,12 @@ public class Base {
 	private int base_privateVar =2; //private 访问级别
 	int base_defaultVar=3; //默认访问级别 ,包访问权限 friendly
 	
+	/*测试super*/
+	String var="Base's variable";
+	void testSuper() {
+		System.out.println("call Base's method");
+	}
+	
 	protected void base_method(){
 		System.out.println("method of base");
 		System.out.println("base_publicVar= "+base_publicVar);
