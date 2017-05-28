@@ -6,6 +6,9 @@ public class ClassSubB extends ClassB {
 		System.out.println("Sub");
 	}
 	
+	public void methodA() {
+		System.out.println("Sub MethodA");
+	}
 	public static void main(String[] args) {
 		new ClassB().test();
 		new ClassSubB().test();
