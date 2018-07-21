@@ -10,4 +10,6 @@ public interface TestInterface {
 //方法都默认为 public abstract 类型
 	void method1();
 	public abstract void method2();
+	
+//接口没有构造方法，不能被实例化
 }
